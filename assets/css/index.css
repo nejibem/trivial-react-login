@@ -1,0 +1,137 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #666;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+section {
+    margin-bottom: 45px;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.container {
+    margin: 1em auto;
+    max-width: 650px;
+}
+
+.jumbotron {
+    background-color: #eee;
+    margin-bottom: 30px;
+    padding: 35px 50px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.jumbotron h1 {
+    color: #555;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+input[type=submit] {
+    width: 100px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #17a2b8;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.input-error {
+    border: 1px solid #ce0000;
+}
+
+.loader {
+    border: 12px solid #f3f3f3;
+    border-top: 12px solid #17a2b8;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.alert {
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 3px;
+}
+
+.alert .alert-heading {
+    font-weight: bold;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #d6e9c6;
+}
+
+.alert-warning {
+    color: #ce0000;
+    background-color: #edd2cc;
+    border-color: rgb(226, 173, 185);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    font-size: 13px;
+    text-align: center;
+    padding: 20px 0;
+    color: #999;
+    border-top: 1px solid #ddd;
+    background: #5e5e5e;
+}
+
+.footer .social-links {
+    margin-bottom: 10px;
+}
+
+.footer .social-links a {
+    color: #FFF;
+}
+
+.footer .social-links a i {
+    font-size: 23px;
+}

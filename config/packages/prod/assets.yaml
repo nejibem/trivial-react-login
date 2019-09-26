@@ -1,0 +1,5 @@
+framework:
+  assets:
+    base_urls:
+      #- 'https://bm-me.s3-ap-southeast-2.amazonaws.com/'
+      - 'https://d1hialdo37hzmd.cloudfront.net'
