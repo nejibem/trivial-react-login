@@ -16,7 +16,7 @@ class AuthController
     ];
 
     /**
-     * @Route("/email", name="email")
+     * @Route("/auth", name="auth")
      */
     public function __invoke(Request $request)
     {

@@ -33,7 +33,7 @@ class LoginForm extends React.Component {
     formData.append('password', form.password);
 
     this.setState({submitting:true});
-    fetch('/email', {
+    fetch('/prod/auth', {
       method: 'POST',
       body: formData,
     })
